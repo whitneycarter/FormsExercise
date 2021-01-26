@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<h1>Customer Experience Survey</h1>
+
+
+<label for="storeNumber">Store Number</label>
+<select id="storeNumber">
+    <option value="">3109</option>
+    <option value="">2421</option>
+    <option value="">5357</option>
+</select>
+<fieldset>
+    <legend>When you visited:</legend>
+    <label>
+        Date Visited
+        <input type="date" id="" min="2021-01-01" max="2021-12-31">
+        <label>
+            Time
+            <input type="time" id="" >
+        </label>
+    </label>
+</fieldset>
+<label for="firstName">First Name</label>
+
+<input type="text" name="firstname" title="First Name" style="color:#888;" value="John" onfocus="inputFocus(this)"
+    onblur="inputBlur(this)" required />
+<label for="lastName">Last Name</label>
+<input type="text" name="firstname" title="First Name" style="color:#888;" value="Doe" onfocus="inputFocus(this)"
+    onblur="inputBlur(this)" required />
+<br>
+
+
+<label for="email">Email:</label>
+<input type="email" name="email" id="useremail" title="your email" style="color:#888;" value="your email"
+    onfocus="inputFocus(this)" onblur="inputBlur(this)" required>
+<br>
+
+<label for="userRadioOne">Male</label>
+<input type="radio" id="userRadioOne" name="radioLink">
+<label for="userRadioTwo">Female</label>
+<input type="radio" id="userRadioTwo" name="radioLink" checked="checked">
+<label for="userRadioThree">Other</label>
+<input type="radio" id="userRadioThree" name="radioLink">
+<br>
+
+<label for="joke">Tell me about your experience:</label>
+<br>
+<textarea id="joke" cols="21" rows="2"></textarea>
+
+<br>
+<label for="number">Times visited in the last month:</label>
+<input type="number" name="number" id="number" min="1" max="30">
+<br>
+<label for="userCheckbox">Please check the box if you would be willing to be contacted about your experience</label>
+<input type="checkbox" id="userCheckbox" required>
+<br>
+
+<form>
+    
+    <input for="password" type="password" placeholder="password" minlength="5" maxlength="10" title="Please enter a password that is 5 to 10 characters in length" required>
+
+
+</form>
+
+
+<form>
+<input type="reset" value="Reset">
+<input type="submit" value="Submit">
+</form>
+
+
+<body>
+
+</body>
+
+</html>
